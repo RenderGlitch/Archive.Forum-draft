@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+body {
+    font-family: "Bitter",sans-serif;
+    background-color: #2b2b2b;
+    background-image: url(img/wallpaper-texture4.jpg);
+    height: 100vh;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+input {
+    margin: 0;
+    padding: 0;
+}
+
+.title {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.subtitle {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.button, a.button {
+    background: #a1a1a1;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+    color: #f7f7f7;
+    transition: .25s;
+    border: none;
+    border-bottom: 4px solid rgba(0,0,0,0.075);
+    border-radius: 0px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.button, a.button:hover {
+    background-color: #A8DF8E;
+}
+/********** FONTS *********/
+@font-face {
+    font-family: "Bitter";
+    src: url(/fonts/Bitter/Bitter-VariableFont_wght.ttf);
+    font-weight: bold;
+}
